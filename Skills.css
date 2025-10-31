@@ -1,0 +1,38 @@
+body{
+    background-image:url(https://t3.ftcdn.net/jpg/05/75/43/90/360_F_575439065_hDEa8huQRosq7QC6fiUqNYluNttDpuFu.jpg);
+    background-size: 90%;
+}
+header{
+    background-color: rgb(65, 163, 249);
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.logo{
+    text-decoration: none;
+    color: #00ffffcb;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a{
+    text-decoration: none;
+    color: #00ffffcb;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.5em;
+    padding: 10px;
+}
+h1{
+    color: #ffffff;
+}
+h2{
+    color: #ffffff;
+}
+p{
+    color: #ffffff;
+}
+section a{
+    color: #ffffff;
+}

@@ -1,0 +1,62 @@
+body{
+    background-image:url(https://th.bing.com/th/id/R.4ecf67eb316545a8f93d381eb42e8c98?rik=4Ks7L8KCUQHw1w&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f9%2f3%2f0%2f1390231-computer-science-wallpapers-2560x1600-for-windows-7.jpg&ehk=BxJuy69ebNdA0sCY3gQK4IAB3Fconrkec8AzZPdppKA%3d&risl=&pid=ImgRaw&r=0);
+}
+.root{
+    --sec-color:#ffffff;
+}
+header{
+    background-color: rgb(65, 163, 249);
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.logo{
+    text-decoration: none;
+    color: #00ffffcb;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a{
+    text-decoration: none;
+    color: #00ffffcb;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.5em;
+    padding: 10px;
+}
+h2{
+    color: var(--sec-color);
+}
+h3{
+    color: var(--sec-color);
+}
+section a{
+    color: var(--sec-color);
+}
+.project{
+    background-color: white;
+}
+.card{
+    background-color: var(--sec-color);
+    border: 1px solid rebeccapurple;
+    margin: 20px;
+    transition: 0.5s ease-in-out;
+    width: 23em;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.content{
+    display: inline-block;
+}
+.content a{
+    color: #8e2525;
+}
+.main{
+    align-items: start;
+}
+.title{
+    color: #000;
+}

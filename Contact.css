@@ -1,0 +1,42 @@
+body{
+    background-image:url(https://th.bing.com/th/id/R.bf7260451db35f9877737a2edcb1a84d?rik=HSr%2f%2fU%2bqztV3dw&riu=http%3a%2f%2fgogotraining.com%2fblog%2fwp-content%2fuploads%2f2016%2f10%2fBecome-a-Computer-Programmer.jpg&ehk=FV5ksgGVtNnP8Y3LYXRcZrgMB%2baxmMyg0TZO8NLMCWE%3d&risl=&pid=ImgRaw&r=0);
+}
+.root{
+    --sec-color:#000000;
+}
+header{
+    background-color: rgb(65, 163, 249);
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.logo{
+    text-decoration: none;
+    color: #00ffffcb;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a{
+    text-decoration: none;
+    color: #00ffffcb;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.5em;
+    padding: 10px;
+}
+h2{
+    color: #ffffff;
+}
+.content{
+    display: inline-block;
+}
+p{
+    color: white;
+}
+.bc{
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+}
